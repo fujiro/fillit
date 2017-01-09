@@ -1,0 +1,83 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    PATH.txt                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: cuzureau <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2016/12/29 10:48:37 by cuzureau          #+#    #+#              #
+#    Updated: 2017/01/03 17:08:49 by cuzureau         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+------------------------------ CURRENT PATH -------------------------------
+
+main.c
+	ft_filetotab.c
+	{
+		libft/ft_strnew.c
+		ft_strlcat_r.c
+			libft/ft_strlen.c
+		libft/ft_strsplit.c
+	}
+	ft_tabtolst.c
+	{
+		libft/ft_strcpy.c
+		ft_create_lst.c
+			ft_piece_len.c
+			ft_piece_high.c
+		ft_create_elem.c
+			ft_piece_len.c
+			ft_piece_high.c
+		ft_create_tab.c
+			ft_sqrt.c
+			ft_memset.c
+		ft_tablen.c
+		ft_fillit.c
+			ft_save.c
+			ft_tab_realloc.c
+			ft_fillit.c
+	}
+
+---------------------------------------------------------------------------
+
+------------------------------- GOOD PATH ---------------------------------
+
+main.c
+	ft_validmap.c				/* ajout tests validmap */
+	{
+		ft_validtetri
+			ft_fillit_usage.c
+				libft/ft_putstr.c
+		ft_validform.c
+			ft_fillit_usage.c
+				libft/ft_putstr.c
+		ft_tabtolst.c			/* erreur de chemin a voir */
+	}
+	ft_filetotab.c
+	{
+		libft/ft_strnew.c
+		ft_strlcat_r.c
+			libft/ft_strlen.c
+		libft/ft_strsplit.c
+	}
+	ft_tabtolst.c
+	{
+		libft/ft_strcpy.c
+		ft_create_lst.c
+			ft_piece_len.c
+			ft_piece_high.c
+		ft_create_elem.c
+			ft_piece_len.c
+			ft_piece_high.c
+		ft_create_tab.c
+			ft_sqrt.c
+			ft_memset.c
+		ft_tablen.c
+		ft_fillit.c
+			ft_save.c
+			ft_tab_realloc.c
+			ft_fillit.c
+		ft_print.c				/* ajout du print */
+
+
